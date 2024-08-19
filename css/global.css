@@ -53,6 +53,10 @@ body {
   flex-direction: column;
 }
 
+.grid {
+  display: grid;
+}
+
 span {
   font: var(--subtitle);
   color: var(--red);
