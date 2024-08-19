@@ -57,6 +57,11 @@ body {
   display: grid;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 span {
   font: var(--subtitle);
   color: var(--red);
