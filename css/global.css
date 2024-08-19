@@ -32,3 +32,38 @@
   --gray-500: #c0c4ce;
   --gray-600: #e2e4e9;
 }
+
+body {
+  background-color: var(--gray-200);
+  color: var(--gray-400);
+  font: var(--text-sm);
+}
+
+.container {
+  max-width: 104rem;
+  padding-inline: 2rem;
+  margin-inline: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-flow-column {
+  flex-direction: column;
+}
+
+span {
+  font: var(--subtitle);
+  color: var(--red);
+}
+
+h1,
+h2,
+h3 {
+  font: inherit;
+}
+
+img {
+  max-width: 100%;
+}

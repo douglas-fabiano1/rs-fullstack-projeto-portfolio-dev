@@ -1,0 +1,127 @@
+#intro {
+  background: url("../assets/Background_Intro.png") no-repeat left center/cover;
+  padding-block: 12rem 5.7rem;
+  margin-inline: auto;
+  align-items: center;
+  justify-content: center;
+  gap: 9.4rem;
+}
+
+#intro > div {
+  align-items: center;
+  gap: 9.4rem;
+}
+
+#info {
+  max-width: 104rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8rem;
+}
+
+#info header {
+  max-width: 68rem;
+  align-items: center;
+  justify-content: center;
+  gap: 5.6rem;
+}
+
+#avatar {
+  width: 9.6rem;
+  height: 9.6rem;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border: 2px solid var(--red);
+  border-radius: 50%;
+}
+
+#code {
+  position: absolute;
+  right: -10px;
+  bottom: -10px;
+}
+
+#user {
+  height: 8.72rem;
+  width: 8.72rem;
+}
+
+#text #title {
+  align-items: center;
+  gap: 8px;
+}
+
+#text {
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+#title {
+  & p:nth-child(1) {
+    font: var(--subtitle);
+    color: var(--gray-500);
+  }
+
+  & h1 {
+    font: var(--title-lg);
+    color: var(--gray-600);
+  }
+
+  & p:nth-child(3) {
+    font: var(--text-sm);
+    color: var(--gray-400);
+  }
+}
+
+#tags {
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+}
+
+.tag {
+  background-color: var(--gray-300);
+  padding: 8px 1.6rem;
+  border-radius: 999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.tag span {
+  width: 2.4rem;
+  height: 2.4rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: cover;
+}
+
+.github {
+  background-image: url("../assets/icons/GitHub.svg");
+}
+
+.html {
+  background-image: url("../assets/icons/HTMLhover.svg");
+}
+
+.css {
+  background-image: url("../assets/icons/CSShover.svg");
+}
+
+.javascript {
+  background-image: url("../assets/icons/JavaScripthover.svg");
+}
+
+.react {
+  background-image: url("../assets/icons/Reacthover.svg");
+}
+
+.nodejs {
+  background-image: url("../assets/icons/Nodejshover.svg");
+}
