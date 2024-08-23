@@ -1,0 +1,85 @@
+#contact {
+  background: url("../assets/Background_Contacts.png") no-repeat center
+    center/cover;
+  padding-block: 12.8rem 20rem;
+
+  & > div {
+    align-items: center;
+    gap: 4.8rem;
+
+    & header {
+      align-items: center;
+      gap: 8px;
+
+      & p:nth-child(1) {
+        font: var(--subtitle);
+        color: var(--purple);
+      }
+
+      & h2 {
+        font: var(--title-md);
+        color: var(--gray-600);
+      }
+
+      & p:nth-child(3) {
+        font: var(--text-md);
+        color: var(--gray-500);
+      }
+    }
+
+    & #medias {
+      gap: 1.6rem;
+
+      & .media-card {
+        background-color: var(--gray-300);
+        width: 40rem;
+        padding: 2rem;
+        border-radius: 8px;
+        border: 1.5px solid var(--gray-300);
+        align-items: center;
+        justify-content: space-between;
+
+        & span {
+          height: 2.8rem;
+          width: 2.8rem;
+        }
+
+        .linkedin {
+          background-image: url("../assets/icons/linkedin-logo.svg");
+        }
+
+        .instagram {
+          background-image: url("../assets/icons/InstagramLogo.svg");
+        }
+
+        .email {
+          background-image: url("../assets/icons/EnvelopeSimple.svg");
+        }
+
+        .github2 {
+          background-image: url("../assets/icons/GithubLogo.svg");
+        }
+
+        &:hover {
+          border: 1.5px solid var(--blue);
+
+          .linkedin {
+            background-image: url("../assets/icons/linkedin-logo-hover.svg");
+          }
+
+          .instagram {
+            background-image: url("../assets/icons/instagram-logo-hover.svg");
+          }
+
+          .github2 {
+            background-image: url("../assets/icons/github-logo-hover.svg");
+          }
+
+          .email {
+            background-image: url("../assets/icons/envelope-simple-hover.svg");
+          }
+        }
+      }
+    }
+  }
+}
